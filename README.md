@@ -15,7 +15,7 @@ Enable gasless transactions in your Solana dApp with one line of code. Let your 
 ## Installation
 
 ```bash
-npm install solana-gasless-sdk
+npm install solanaFlow
 ```
 
 ## Quick Start
