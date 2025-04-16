@@ -39,8 +39,8 @@ Solana Gasless SDK enables developers to implement gasless transactions in their
 - ✅ Error handling
 
 ### Technical Specifications
-- Maximum transaction size: 15 SOL
-- Rate limit: 3 requests per wallet per 3 hours
+- Maximum transaction size: 0.5 SOL
+- Rate limit: 2 requests per wallet per 3 hours
 - Network support: Solana devnet & mainnet
 - Response time: ~500ms average
 
@@ -518,8 +518,8 @@ if (!sdk.isValidSolanaAddress(address)) {
 ```javascript
 // Error: Amount exceeds maximum
 // Solution: Check amount before sending
-if (amount > 15) {
-    console.error('Maximum amount is 15 SOL');
+if (amount > 0.5) {
+    console.error('Maximum amount is 0.5 SOL');
 }
 ```
 
@@ -578,7 +578,7 @@ try {
 |------------|-------------|----------|
 | RATE_LIMIT | Too many requests | Wait for rate limit reset |
 | INVALID_ADDRESS | Invalid recipient | Check address format |
-| AMOUNT_EXCEED | Amount too high | Reduce amount below 15 SOL |
+| AMOUNT_EXCEED | Amount too high | Reduce amount below 0.5 SOL |
 | AUTH_POPUP_BLOCKED | Auth popup blocked | Enable popups |
 | AUTH_ACCOUNT_EXISTS | Account already exists | Link accounts or sign out |
 | AUTH_NETWORK_FAILED | Network request failed | Check internet connection |
@@ -604,7 +604,7 @@ npm test
 
 ## Support
 
-- GitHub Issues: [Report a bug](https://github.com/adityajha2005/solana-gasless-sdk/issues)
+- GitHub Issues: [Report a bug](https://github.com/adityajha2005/solanaFlow/issues)
 - X: [@adxtya_jha](https://x.com/adxtya_jha)
 - Email: 2005akjha@email.com
 
