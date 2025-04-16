@@ -1,3 +1,4 @@
+<!-- GitAds-Verify: 6JAVXVFASO1DAK4412WUZBPRDBBPP9GW -->
 # Solana Gasless SDK
 
 Enable gasless transactions in your Solana dApp with one line of code. Let your users interact with your dApp without needing SOL or creating a wallet.
