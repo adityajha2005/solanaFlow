@@ -381,4 +381,4 @@ try {
 
 MIT License - feel free to use in your projects!
 
-https://raw.githubusercontent.com/adityajha2005/solanaflow/main/README.md
+https://raw.githubusercontent.com/adityajha2005/solanaflow/master/README.md
