@@ -381,6 +381,6 @@ try {
 
 MIT License - feel free to use in your projects!
 
-## GitAds Sponsored
-[![Sponsored by GitAds](https://staging.gitads.dev/v1/ad-serve?source=adityajha2005/solanaflow@github)](https://staging.gitads.dev/v1/ad-track?source=adityajha2005/solanaflow@github)
+
+
 
